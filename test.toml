@@ -1,0 +1,100 @@
+[project_definition]
+binary_path = "./a1"
+makefile_path = "."
+make_targets = ["all"]
+global_timeout = 10
+
+################################################################################
+## public test cases
+##
+[[testcases]]
+name = "Command: show"
+description = "professor view"
+type = "OrdIO"
+argv = ["tests/01/data_01.csv"]
+io_file = "tests/01/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Command: addstudent"
+description = "all possible wrong inputs, successful execution"
+type = "OrdIO"
+argv = ["tests/02/data_02.csv"]
+io_file = "tests/02/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Command: addgrade"
+description = "possible wrong inputs, entering points for the first time, overwriting points"
+type = "OrdIO"
+argv = ["tests/03/data_03.csv"]
+io_file = "tests/03/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Command: save"
+description = "adding a grade and saving the database afterwards"
+type = "OrdIO"
+argv = ["tests/04/data_04.csv"]
+io_file = "tests/04/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+add_out_file = "csv_files/data_04_modified.csv"
+add_exp_file = "tests/04/data_04_reference.csv"
+
+[[testcases]]
+name = "File invalid"
+description = "Pomona Sprout is contained as a professor and as a student"
+type = "IO"
+argv = ["tests/05/data_05.csv"]
+exp_file = "tests/05/out"
+exp_exit_code = 3
+
+[[testcases]]
+name = "Command: show"
+description = "Student view"
+type = "OrdIO"
+argv = ["tests/06/data_06.csv"]
+io_file = "tests/06/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Command: back"
+description = "wrong number of parameters"
+type = "OrdIO"
+argv = ["tests/07/data_07.csv"]
+io_file = "tests/07/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Command: removegrade"
+description = "with wrong back Command aswell "
+type = "OrdIO"
+argv = ["tests/08/data_08.csv"]
+io_file = "tests/08/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Command: save"
+description = "with addstudent"
+type = "OrdIO"
+argv = ["tests/09/data_09.csv"]
+io_file = "tests/09/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+add_out_file = "csv_files/data_09_modified.csv"
+add_exp_file = "tests/09/data_09_reference.csv"
+
+[[testcases]]
+name = "File invalid 2"
+description = "One assignment is included in 2 Subjects"
+type = "IO"
+argv = ["tests/10/data_10.csv"]
+exp_file = "tests/10/out"
+exp_exit_code = 3

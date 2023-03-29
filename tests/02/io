@@ -1,0 +1,101 @@
+> Welcome to HOGWARTSonline!
+> Enter your username:
+?  > 
+< Minerva McGonagall
+> Login successful!
+> 
+?  > 
+< show
+> 
+> Professor: Minerva McGonagall
+> Subject: Transfiguration
+> 
+>   Student: Hermione Granger - Acceptable
+>     Switching Spell - 85
+>     Vanishing Spell - 60
+>     Beetle Buttons - 99
+> 
+>   Student: Harry Potter - Exceeds Expectations
+>     Switching Spell - 74
+>     Vanishing Spell - 75
+>     Beetle Buttons - 86
+> 
+>   Student: Ron Weasley - Poor
+>     Switching Spell - 90
+>     Vanishing Spell - 40
+>     Beetle Buttons - 80
+> 
+>   Student: Ginny Weasley - Acceptable
+>     Switching Spell - 55
+>     Vanishing Spell - 64
+>     Beetle Buttons - 66
+> 
+>   Student: Neville Longbottom - Poor
+>     Switching Spell - 42
+>     Vanishing Spell - 55
+>     Beetle Buttons - 63
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Switching Spell - 91
+>     Vanishing Spell - 99
+>     Beetle Buttons - 100
+> 
+?  > 
+< addstudent Neville Longbottom
+> [ERROR] Invalid command or invalid number of parameters!
+?  > 
+< addstudent Neville Longbottom Gryffindor
+> [ERROR] This user already exists!
+?  > 
+< addstudent Remus Lupin Gryffindor
+> [ERROR] This user already exists!
+?  > 
+< addstudent Cho Chang Rvnclw
+> [ERROR] Invalid house!
+?  > 
+< addstudent Cho Chang Ravenclaw
+> Successfully added student: Cho Chang
+?  > 
+< show
+> 
+> Professor: Minerva McGonagall
+> Subject: Transfiguration
+> 
+>   Student: Hermione Granger - Acceptable
+>     Switching Spell - 85
+>     Vanishing Spell - 60
+>     Beetle Buttons - 99
+> 
+>   Student: Harry Potter - Exceeds Expectations
+>     Switching Spell - 74
+>     Vanishing Spell - 75
+>     Beetle Buttons - 86
+> 
+>   Student: Ron Weasley - Poor
+>     Switching Spell - 90
+>     Vanishing Spell - 40
+>     Beetle Buttons - 80
+> 
+>   Student: Ginny Weasley - Acceptable
+>     Switching Spell - 55
+>     Vanishing Spell - 64
+>     Beetle Buttons - 66
+> 
+>   Student: Neville Longbottom - Poor
+>     Switching Spell - 42
+>     Vanishing Spell - 55
+>     Beetle Buttons - 63
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Switching Spell - 91
+>     Vanishing Spell - 99
+>     Beetle Buttons - 100
+> 
+>   Student: Cho Chang - NO GRADE AVAILABLE
+>     Switching Spell - NO POINTS AVAILABLE
+>     Vanishing Spell - NO POINTS AVAILABLE
+>     Beetle Buttons - NO POINTS AVAILABLE
+> 
+?  > 
+< quit
+> Log Out complete.

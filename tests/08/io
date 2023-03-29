@@ -1,0 +1,168 @@
+> Welcome to HOGWARTSonline!
+> Enter your username:
+?  > 
+< Pomona Sprout
+> Login successful!
+> 
+?  > 
+< show
+> 
+> Professor: Pomona Sprout
+> Subject: Herbology
+> 
+>   Student: Harry Potter - Acceptable
+>     Fanged Geranium - 86
+>     Dittany - 65
+>     Mandrakes - 51
+> 
+>   Student: Hermione Granger - Outstanding
+>     Fanged Geranium - 97
+>     Dittany - 94
+>     Mandrakes - 90
+> 
+>   Student: Ron Weasley - Acceptable
+>     Fanged Geranium - 55
+>     Dittany - 65
+>     Mandrakes - 56
+> 
+>   Student: Ginny Weasley - NO GRADE AVAILABLE
+>     Fanged Geranium - NO POINTS AVAILABLE
+>     Dittany - 72
+>     Mandrakes - 84
+> 
+>   Student: Neville Longbottom - Acceptable
+>     Fanged Geranium - 57
+>     Dittany - 81
+>     Mandrakes - 52
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Fanged Geranium - 94
+>     Dittany - 93
+>     Mandrakes - 85
+> 
+>   Student: Draco Malfoy - Outstanding
+>     Fanged Geranium - 95
+>     Dittany - 83
+>     Mandrakes - 85
+> 
+?  > 
+< modifystudent Ginny Weasley
+> Now modifying student: Ginny Weasley
+?  > 
+< addgrade Fanged Geranium 101
+> [ERROR] Invalid grade!
+?  > 
+< addgrade Fanged Geranium -1
+> [ERROR] Invalid grade!
+?  > 
+< addgrade Fanged Geranium 12abc
+> [ERROR] Invalid grade!
+?  > 
+< addgrade Geranium Fanged 16
+> [ERROR] Grade cannot be entered!
+?  > 
+< addgrade Fanged Geranium 16
+> Grade was entered successfully!
+?  > 
+< removegrade Dittany
+> Grade was removed successfully!
+?  > 
+< back
+?  > 
+< show
+> 
+> Professor: Pomona Sprout
+> Subject: Herbology
+> 
+>   Student: Harry Potter - Acceptable
+>     Fanged Geranium - 86
+>     Dittany - 65
+>     Mandrakes - 51
+> 
+>   Student: Hermione Granger - Outstanding
+>     Fanged Geranium - 97
+>     Dittany - 94
+>     Mandrakes - 90
+> 
+>   Student: Ron Weasley - Acceptable
+>     Fanged Geranium - 55
+>     Dittany - 65
+>     Mandrakes - 56
+> 
+>   Student: Ginny Weasley - NO GRADE AVAILABLE
+>     Fanged Geranium - 16
+>     Dittany - NO POINTS AVAILABLE
+>     Mandrakes - 84
+> 
+>   Student: Neville Longbottom - Acceptable
+>     Fanged Geranium - 57
+>     Dittany - 81
+>     Mandrakes - 52
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Fanged Geranium - 94
+>     Dittany - 93
+>     Mandrakes - 85
+> 
+>   Student: Draco Malfoy - Outstanding
+>     Fanged Geranium - 95
+>     Dittany - 83
+>     Mandrakes - 85
+> 
+?  > 
+< modifystudent Ginny Weasley
+> Now modifying student: Ginny Weasley
+?  > 
+< addgrade Fanged Geranium 96
+> Grade was entered successfully!
+?  > 
+< 
+?  > 
+< backnow
+> [ERROR] Invalid command or invalid number of parameters!
+?  > 
+< back
+?  > 
+< show
+> 
+> Professor: Pomona Sprout
+> Subject: Herbology
+> 
+>   Student: Harry Potter - Acceptable
+>     Fanged Geranium - 86
+>     Dittany - 65
+>     Mandrakes - 51
+> 
+>   Student: Hermione Granger - Outstanding
+>     Fanged Geranium - 97
+>     Dittany - 94
+>     Mandrakes - 90
+> 
+>   Student: Ron Weasley - Acceptable
+>     Fanged Geranium - 55
+>     Dittany - 65
+>     Mandrakes - 56
+> 
+>   Student: Ginny Weasley - NO GRADE AVAILABLE
+>     Fanged Geranium - 96
+>     Dittany - NO POINTS AVAILABLE
+>     Mandrakes - 84
+> 
+>   Student: Neville Longbottom - Acceptable
+>     Fanged Geranium - 57
+>     Dittany - 81
+>     Mandrakes - 52
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Fanged Geranium - 94
+>     Dittany - 93
+>     Mandrakes - 85
+> 
+>   Student: Draco Malfoy - Outstanding
+>     Fanged Geranium - 95
+>     Dittany - 83
+>     Mandrakes - 85
+> 
+?  > 
+< quit
+> Log Out complete.

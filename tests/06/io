@@ -1,0 +1,45 @@
+> Welcome to HOGWARTSonline!
+> Enter your username:
+?  > 
+< Harry Potter
+> Login successful!
+> 
+?  > 
+< show
+> 
+> Student: Harry Potter, Gryffindor
+>   Subject: Astronomy - Exceeds Expectations
+>     Jupiters moons - 70
+>     Blank Star-Chart - 80
+> 
+>   Subject: Charms - Acceptable
+>     Levitation Charm - 65
+>     Cheering Charm - 89
+>     Counter-Charm - 74
+>     Colour Change - 85
+>     Growth Charms - 96
+> 
+>   Subject: Defence Against the Dark Arts - Acceptable
+>     Werewolf - 66
+>     Dementors - 75
+>     Patronus Charm - 74
+>     Avada Kedavra - 85
+> 
+>   Subject: Herbology - Acceptable
+>     Fanged Geranium - 86
+>     Dittany - 65
+>     Mandrakes - 51
+> 
+>   Subject: Potions - Exceeds Expectations
+>     Polyjuice Potion - 95
+>     Amortentia Potion - 70
+>     Wiggenweld Potion - 72
+> 
+>   Subject: Transfiguration - Exceeds Expectations
+>     Switching Spell - 74
+>     Vanishing Spell - 75
+>     Beetle Buttons - 86
+> 
+?  > 
+< quit
+> Log Out complete.

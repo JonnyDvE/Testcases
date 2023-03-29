@@ -1,0 +1,137 @@
+> Welcome to HOGWARTSonline!
+> Enter your username:
+?  > 
+< Remus Lupin
+> Login successful!
+> 
+?  > 
+< show
+> 
+> Professor: Remus Lupin
+> Subject: Defence Against the Dark Arts
+> 
+>   Student: Harry Potter - Acceptable
+>     Werewolf - 66
+>     Dementors - 75
+>     Patronus Charm - 74
+>     Avada Kedavra - 85
+> 
+>   Student: Hermione Granger - Exceeds Expectations
+>     Werewolf - 68
+>     Dementors - 100
+>     Patronus Charm - 80
+>     Avada Kedavra - 99
+> 
+>   Student: Ron Weasley - Exceeds Expectations
+>     Werewolf - 82
+>     Dementors - 97
+>     Patronus Charm - 73
+>     Avada Kedavra - 87
+> 
+>   Student: Ginny Weasley - NO GRADE AVAILABLE
+>     Werewolf - 92
+>     Dementors - NO POINTS AVAILABLE
+>     Patronus Charm - NO POINTS AVAILABLE
+>     Avada Kedavra - NO POINTS AVAILABLE
+> 
+>   Student: Neville Longbottom - Acceptable
+>     Werewolf - 86
+>     Dementors - 84
+>     Patronus Charm - 96
+>     Avada Kedavra - 56
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Werewolf - 86
+>     Dementors - 89
+>     Patronus Charm - 90
+>     Avada Kedavra - 90
+> 
+>   Student: Draco Malfoy - Exceeds Expectations
+>     Werewolf - 100
+>     Dementors - 95
+>     Patronus Charm - 74
+>     Avada Kedavra - 75
+> 
+?  > 
+< modifystudent Ron Weasley
+> Now modifying student: Ron Weasley
+?  > 
+< addgrade Werewolf 82
+> Grade was entered successfully!
+?  > 
+< addgrade Dementors 97
+> Grade was entered successfully!
+?  > 
+< addgrade Patronus Charm 73
+> Grade was entered successfully!
+?  > 
+< addgrade Avada Kedavra 87
+> Grade was entered successfully!
+?  > 
+< backnow
+> [ERROR] Invalid command or invalid number of parameters!
+?  > 
+< back
+?  > 
+< addstudent CLion Superior Slytherin
+> Successfully added student: CLion Superior
+?  > 
+< show
+> 
+> Professor: Remus Lupin
+> Subject: Defence Against the Dark Arts
+> 
+>   Student: Harry Potter - Acceptable
+>     Werewolf - 66
+>     Dementors - 75
+>     Patronus Charm - 74
+>     Avada Kedavra - 85
+> 
+>   Student: Hermione Granger - Exceeds Expectations
+>     Werewolf - 68
+>     Dementors - 100
+>     Patronus Charm - 80
+>     Avada Kedavra - 99
+> 
+>   Student: Ron Weasley - Exceeds Expectations
+>     Werewolf - 82
+>     Dementors - 97
+>     Patronus Charm - 73
+>     Avada Kedavra - 87
+> 
+>   Student: Ginny Weasley - NO GRADE AVAILABLE
+>     Werewolf - 92
+>     Dementors - NO POINTS AVAILABLE
+>     Patronus Charm - NO POINTS AVAILABLE
+>     Avada Kedavra - NO POINTS AVAILABLE
+> 
+>   Student: Neville Longbottom - Acceptable
+>     Werewolf - 86
+>     Dementors - 84
+>     Patronus Charm - 96
+>     Avada Kedavra - 56
+> 
+>   Student: Luna Lovegood - Outstanding
+>     Werewolf - 86
+>     Dementors - 89
+>     Patronus Charm - 90
+>     Avada Kedavra - 90
+> 
+>   Student: Draco Malfoy - Exceeds Expectations
+>     Werewolf - 100
+>     Dementors - 95
+>     Patronus Charm - 74
+>     Avada Kedavra - 75
+> 
+>   Student: CLion Superior - NO GRADE AVAILABLE
+>     Werewolf - NO POINTS AVAILABLE
+>     Dementors - NO POINTS AVAILABLE
+>     Patronus Charm - NO POINTS AVAILABLE
+>     Avada Kedavra - NO POINTS AVAILABLE
+> 
+?  > 
+< save csv_files/data_09_modified.csv
+> File saved successfully!
+?  > 
+< quit
+> Log Out complete.
