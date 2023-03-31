@@ -73,7 +73,7 @@ exp_exit_code = 0
 
 [[testcases]]
 name = "Command: removegrade"
-description = "with wrong back Command aswell "
+description = "with wrong back command aswell "
 type = "OrdIO"
 argv = ["tests/08/data_08.csv"]
 io_file = "tests/08/io"
