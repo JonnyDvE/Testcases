@@ -118,6 +118,9 @@
 ?  > 
 < back
 ?  > 
+< show test
+> [ERROR] Invalid command or invalid number of parameters!
+?  > 
 < show
 > 
 > Professor: Pomona Sprout

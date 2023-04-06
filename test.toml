@@ -63,7 +63,7 @@ io_prompt = "^\\s*>\\s*$"
 exp_exit_code = 0
 
 [[testcases]]
-name = "Command: back"
+name = "Command: back, show"
 description = "wrong number of parameters"
 type = "OrdIO"
 argv = ["tests/07/data_07.csv"]
